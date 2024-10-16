@@ -42,7 +42,7 @@ nav a{
 
 
 .dropbtn{
-    background-color: beige;
+    background-color: rgb(0, 0, 0);
     color: azure;
     padding: 16px;
     font-size: 14px;
@@ -270,3 +270,117 @@ border: solid red;
 border-radius: 2px;
 border-color: aqua;
 }
+nav a:hover{
+    background-color: rgb(248, 0, 0);
+    color: blue;
+}
+.dropdownContent a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    
+    }
+    
+    .dropdown1:hover .dropdownContent:hover{
+    display: block;
+    color: #000000;
+    }
+    .dropdown1 .dropdownContent{
+    display: none;
+    position: absolute;
+    top: 5.7vh;
+    right: 39vh;
+
+    
+    }
+    .extraInfo{
+        padding: 40px 20px
+    }
+    .dropdown1:hover .dropdownContent{
+    display: block
+    }
+    
+    .dropdownContent a{
+    color: #fafafa;
+    padding: 10px 13px;
+    text-decoration: none;
+    display: block;
+    }
+    .dropdownContent{
+
+    background-color: #f20000;
+    color: #00a8c7;
+    }
+
+
+
+
+    
+
+    // yusuf
+    .container{
+        margin: 20px;
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 10px;
+        border: 5px black solid;
+        
+    }
+
+    h1/{
+        font-style: italic;
+        color: blue;
+    }
+    
+    p/{
+        font-style: oblique;
+        color: red;
+        font-size: larger;
+    }
+    
+    .intro{
+        border: 3px yellow solid;
+        border-radius: 10px;
+        text-align: center;
+        
+    }
+    
+    .alle{
+        background-color: aqua;
+        border-radius: 10px;
+        border: 5px black solid;
+        margin: 30px;
+    }
+    
+    .eerstevraag{
+        border-radius: 10px;
+    }
+    
+    .tweedevraag{
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    
+    .regels{
+        border: 3px yellow solid;
+        margin: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .ziekmelden{
+        border: 3px yellow solid;
+        margin: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    h1/, h2/{
+        color: blue;
+        margin-left: 10px;
+    }
+    
+    p/, li/{
+        color: red;
+        margin: 10px;
+        font-size: 20px;
+    }
