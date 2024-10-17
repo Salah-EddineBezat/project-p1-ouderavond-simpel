@@ -194,6 +194,7 @@ h3{
     -1px 1px 0 rgb(255, 255, 255),  
     1px 1px 0 rgb(255, 255, 255);
 }
+
 p1{
     font-size: 12px;
 color: rgb(14, 0, 103);
@@ -316,38 +317,46 @@ nav a:hover{
 
     
 
-    // yusuf
+   
+
+    /* yusuf introductie */
+
     .container{
         margin: 20px;
         background-color: aqua;
         border-radius: 10px;
         padding: 10px;
-        border: 5px black solid;
+        border: 3px black solid;
         
     }
 
-    h1/{
+   .h1intro{
         font-style: italic;
         color: blue;
     }
     
-    p/{
+    .pintro{
         font-style: oblique;
         color: red;
-        font-size: larger;
-    }
-    
-    .intro{
-        border: 3px yellow solid;
-        border-radius: 10px;
-        text-align: center;
+        font-size: 20px;
         
     }
     
+    .intro{
+        background-color: aqua;
+        border: 5px rgb(8, 8, 2) solid;
+        border-radius: 10px;
+        text-align: center;
+        margin: 20px;
+        
+    }
+    
+
+    /* yusuf locatiegids */
     .alle{
         background-color: aqua;
         border-radius: 10px;
-        border: 5px black solid;
+        border: 3px black solid;
         margin: 30px;
     }
     
@@ -374,13 +383,107 @@ nav a:hover{
         text-align: center;
     }
     
-    h1/, h2/{
+   .h1loc, .h2loc{
         color: blue;
         margin-left: 10px;
     }
     
-    p/, li/{
+    .ploc, .liloc{
         color: red;
         margin: 10px;
         font-size: 20px;
     }
+
+    .locatiegids{
+        border: 5px black solid;
+        margin: 25px;
+        border-radius: 10px ;
+        background-color: aqua;
+        text-align: center;
+    }
+
+    /* Canvas */
+
+    .butun{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 150px;
+        margin-top: 20px;
+        width: 1200px;
+        background-color: aqua;
+        border-radius: 20px;
+        border: 3px black solid;
+        padding: 10px 10px;
+}
+
+.butunkonu{
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: aqua;
+    border: 5px black solid;
+    border-radius: 20px;
+    padding: 5px;
+    width: 900px;
+    text-align: center;
+}
+
+
+.kapsayici{
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas{
+    border: 2px yellow solid;
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+    
+}
+
+.parent{
+    border: 2px yellow solid;
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+    
+}
+
+
+.renkbaslik{
+    color: blue;
+}
+
+
+.h2canva{
+    color: blue;
+    font-size: 20px;
+}
+
+.pcanva{
+    color: red;
+    font-size: 18px;
+}
+
+.link{
+    height: 20px;
+    width: 400px;
+    background-color: aqua;
+    margin-left: 575px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px black solid;
+}
+
+
+.linkcanvas{
+    text-decoration: none;
+    color:blue ;
+    font-size: 15px;
+}
+
+.bodycanvas{
+   background-color: #f20000;
+}
