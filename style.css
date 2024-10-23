@@ -100,7 +100,7 @@ nav a{
 
 
   
-  .color2{
+.color2{
     padding-top: 20px;
     font-size: 40px;
     font-family: "Goldman", system-ui;
@@ -136,6 +136,7 @@ nav{
     margin: auto;
     background-color: blue;
     justify-content: space-between;
+    overflow: visible;
     position: fixed;
     left: 0;
     top: 0;
@@ -207,24 +208,27 @@ color: rgb(14, 0, 103);
      
     }
         .locLoc{
-            border-style: solid;
-            border-radius: 40px;
-            color: antiquewhite;
+           border-radius: 200px;
+            color: rgb(0, 0, 0);
             border-color: blue;
             background-color: rgb(79, 152, 253);
             font-size: 40px;
         text-align: center;
+        width: 40%;
+        margin: auto;
+        margin-bottom: 20px;
     
         }
 
         .sst{
-            font-size: 20px;
+            font-size: 24px;
             text-align: center;
             color: blue;
-            border: solid;
-            border-radius: 4px;
-            background-color: aliceblue;
-         
+            width: 40%;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 15px;
+            background-color: rgb(0, 0, 0);
         }
 .body4{
 background-color: bisque;
@@ -239,17 +243,22 @@ background-size: cover;
 .sst2{
 
     text-align: center;
-    font-size: 12px;
-    border: solid ;
-    color: red;
-    background-color: beige;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width:40%;
+    border-radius: 15px;
+    margin: auto;
 }
 .sst3{
     text-align: center;
-    font-size: 12px;
-    border: solid ;
-    color: rgb(2, 2, 64);
-    background-color: aqua;
+    font-size: 18px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    border-radius: 15px;
+    margin: auto;
+    
 }
 .cont{
 background-image: url(/g2.png);
@@ -258,8 +267,9 @@ background-repeat: no-repeat;
 background-size: cover;
 border: solid red;
 border-radius: 2px;
-border-color: aqua;
+border-color: rgb(0, 0, 0);
 margin-bottom: 2vh;
+border-radius: 15px;
 }
 .cont2{
     background-image: url(/V2.png);
@@ -269,13 +279,15 @@ background-size: cover;
 border: solid red;
 border-radius: 2px;
 border-color: aqua;
+border-radius: 20px;
 }
 nav a:hover{
-    background-color: rgb(248, 0, 0);
+    background-color: rgb(255, 255, 255);
     color: blue;
+    font-size: 15px;
 }
 .dropdownContent a:hover{
-    background-color: #000000;
+    background-color: #00000054;
     color: #ffffff;
     
     }
@@ -289,8 +301,6 @@ nav a:hover{
     position: absolute;
     top: 5.7vh;
     right: 39vh;
-
-    
     }
     .extraInfo{
         padding: 40px 20px
@@ -310,44 +320,262 @@ nav a:hover{
     background-color: #f20000;
     color: #00a8c7;
     }
+    .edua{
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: darkblue;
+        border: solid 2px rgb(0, 0, 0);
+        border-radius: 15px;
+        text-align: center;
+        background-color: #07c500f1;
+        width: 80%;
+        margin: 20px auto;
+
+    }
+    .cont3{
+        background-color: #7afb76f1;
+        width: 80%;
+        margin: 20px auto;
+        border:  solid 2px rgb(24, 0, 118);
+        border-radius: 10px;
+    }
+   
+    
+    .head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 2vh;
+        color: darkblue;
+        background-color: beige;
+
+    }
+    
+    .p7{
+        font-family: 'Times New Roman', Times, serif;
+        color: #5500fff1;
+        text-decoration: none;
+        margin-left: 2vh;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 20px auto;
+        border: solid 2px darkblue;
+        border-radius: 2px;
+        background-color: rgb(0, 255, 157);
+
+    }
+    .p7:hover{
+        color: white;
+        background-color: #007e3d;
+    }
+    .p2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-family: cursive;
+        text-shadow: 
+        -1px -1px 0 rgb(255, 255, 255),  
+        1px -1px 0 rgb(255, 255, 255),  
+        -1px 1px 0 rgb(255, 255, 255),  
+        1px 1px 0 rgb(255, 255, 255);
+    }
+    .body10{
+        background-image: url(/eduarte.png);
+        border: solid 3px #ffffff;
+        border-radius: 100px;
+       
+        
+    }
+
+    .green{
+        color: rgb(1, 62, 1);
+    }
+
+    .cont5{
+        font-size: 14px;
+       margin-bottom: 10px;
+       width: 90%;
+       height: 5vh;
+       margin: 20px auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: lightcyan;
+    }
+       
+    .p5{
+        font-size: 12px;
+        color: white;
+        background-color: black;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 20px auto;
+        text-decoration: none;
+    }
+    .p5:hover{
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        color: rgb(254, 0, 0);
+
+    }
+
+    .img3{
+        width: 45%;
+        height: 50%;
+        float: right;
+       position: absolute;
+       top: 115%;
+       right: 0;
+       margin-top: 20px;
+    }
+
+    .titel5{
+        font-size: 27px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
 
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tussenKop{
+        font-size: 22px;
+        font-family: "Playwrite GB S", cursive;
+        color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .color2 {
+        text-shadow: 
+        -1px -1px 0 rgb(255, 255, 255),  
+        1px -1px 0 rgb(0, 0, 0),  
+        -1px 1px 0 rgb(255, 255, 255),  
+        1px 1px 0 rgb(0, 0, 0);
+    }
+    .p2{
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+    }
+    
+       
+    
+    
+    
+    .p0{
+        font-size: 15px;
+        font-family: "Playwrite GB S", cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
 
+    .enable2{
+        margin-bottom: 10vh;
+    }
+    .aanpassing3{
+        border: solid 2px black;
+        width: 85vw;
+        border-radius: 80px;
+        background-color: #e3e3e3;
+        margin: auto ;
+    }
+
+    .bodyz{
+        background-color: gold;
+
+    }
+    .colo{
+       
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        background-color: white;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: solid 2px black;
+        padding: 20px ;
+
+    }
 
     
+   
 
-    // yusuf
+
+    .body3{
+        background-color:lightblue;
+    }
+
     .container{
         margin: 20px;
         background-color: aqua;
         border-radius: 10px;
         padding: 10px;
-        border: 5px black solid;
+        border: 3px black solid;
         
     }
 
-    h1/{
+   .h1intro{
         font-style: italic;
         color: blue;
     }
     
-    p/{
+    .pintro{
         font-style: oblique;
         color: red;
-        font-size: larger;
-    }
-    
-    .intro{
-        border: 3px yellow solid;
-        border-radius: 10px;
-        text-align: center;
+        font-size: 20px;
         
     }
     
+    .intro{
+        background-color: aqua;
+        border: 5px rgb(8, 8, 2) solid;
+        border-radius: 10px;
+        text-align: center;
+        margin: 20px;
+        
+    }
+    .body5{
+        background-color: #5500fff1;
+    }
+
+    .color9{
+        color: black;
+        background-color: wheat;
+    }
+    .color0{
+        font-weight: 400;
+        color: #00a8c7;
+        background-color: wheat;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 20px auto;
+        border: solid 2px ;
+    }
+
+
+    /* yusuf locatiegids */
     .alle{
         background-color: aqua;
         border-radius: 10px;
-        border: 5px black solid;
+        border: 3px black solid;
         margin: 30px;
     }
     
@@ -374,13 +602,119 @@ nav a:hover{
         text-align: center;
     }
     
-    h1/, h2/{
+   .h1loc, .h2loc{
         color: blue;
         margin-left: 10px;
     }
     
-    p/, li/{
+    .ploc, .liloc{
         color: red;
         margin: 10px;
         font-size: 20px;
     }
+
+    .locatiegids{
+        border: 5px black solid;
+        margin: 25px;
+        border-radius: 10px ;
+        background-color: aqua;
+        text-align: center;
+    }
+
+    /* Canvas */
+
+    .butun{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 150px;
+        margin-top: 20px;
+        width: 1200px;
+        background-color: aqua;
+        border-radius: 20px;
+        border: 3px black solid;
+        padding: 10px 10px;
+}
+
+.butunkonu{
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: aqua;
+    border: 5px black solid;
+    border-radius: 20px;
+    padding: 5px;
+    width: 900px;
+    text-align: center;
+}
+
+
+.kapsayici{
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas{
+    border: 2px yellow solid;
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+    
+}
+
+.parent{
+    border: 2px yellow solid;
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+    
+}
+
+
+.renkbaslik{
+    color: blue;
+}
+
+
+.h2canva{
+    color: blue;
+    font-size: 20px;
+}
+
+.pcanva{
+    color: red;
+    font-size: 18px;
+}
+
+.link{
+    height: 20px;
+    width: 400px;
+    background-color: aqua;
+    margin-left: 575px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px black solid;
+}
+.link:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+}
+
+
+.linkcanvas{
+    text-decoration: none;
+    color:blue ;
+    font-size: 15px;
+}
+.linkcanvas:hover,
+.linkcanvas:focus{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+
+}
+
+.bodycanvas{
+   background-color: #f20000;
+}
