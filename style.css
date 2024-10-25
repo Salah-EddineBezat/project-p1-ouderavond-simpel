@@ -336,12 +336,12 @@ nav a:hover{
 
    .h1intro{
         font-style: italic;
-        color: blue;
+        color: rgb(255, 25, 0);
     }
     
     .pintro{
         font-style: oblique;
-        color: red;
+        color: rgb(14, 2, 2);
         font-size: 20px;
         
     }
@@ -355,6 +355,10 @@ nav a:hover{
         width: 700px;
         margin-left: 400px;
         
+    }
+
+    .renkintro{
+        color: red;
     }
     
 
@@ -394,13 +398,17 @@ nav a:hover{
         text-align: center;
     }
     
-   .h1loc, .h2loc{
-        color: blue;
+    .h2loc{
+        color: rgb(255, 34, 0);
         margin-left: 10px;
+    }
+
+    .h1loc{
+        color: blue;
     }
     
     .ploc, .liloc{
-        color: red;
+        color: rgb(17, 1, 1);
         margin: 10px;
         font-size: 20px;
     }
@@ -414,6 +422,10 @@ nav a:hover{
         width: 700px;
         margin-left: 400px;
         
+    }
+
+    .renkloc{
+        color: red;
     }
 
     /* Canvas */
@@ -466,17 +478,17 @@ nav a:hover{
 
 
 .renkbaslik{
-    color: blue;
+    color: rgb(38, 0, 255);
 }
 
 
 .h2canva{
-    color: blue;
+    color: rgb(255, 55, 0);
     font-size: 20px;
 }
 
 .pcanva{
-    color: red;
+    color: rgb(17, 1, 1);
     font-size: 18px;
 }
 
@@ -500,6 +512,10 @@ nav a:hover{
 
 .bodycanvas{
    background-color: yellow;
+}
+
+.renkcanvas{
+    color: red;
 }
 
 /* diploma eisen */
@@ -534,12 +550,12 @@ nav a:hover{
 
 .h2diploma{
     font-size: 20px;
-    color: blue;
+    color: rgb(248, 41, 4);
 }
 
 .pdiploma{
     font-size: 18px;
-    color: red;
+    color: rgb(12, 1, 1);
 }
 
 .baslikdip{
@@ -552,4 +568,8 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.baslikdiploma{
+    color: red;
 }
