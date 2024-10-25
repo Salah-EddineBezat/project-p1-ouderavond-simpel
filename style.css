@@ -570,8 +570,49 @@ nav a:hover{
         border: solid 2px ;
     }
 
+    .bodyintro{
+        background-color: yellow;
+    }
+
+    .container{
+        margin: 20px;
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 10px;
+        border: 3px black solid;
+        
+    }
+
+   .h1intro{
+        font-style: italic;
+        color: blue;
+    }
+    
+    .pintro{
+        font-style: oblique;
+        color: red;
+        font-size: 20px;
+        
+    }
+    
+    .intro{
+        background-color: aqua;
+        border: 5px rgb(8, 8, 2) solid;
+        border-radius: 10px;
+        text-align: center;
+        margin: 20px;
+        width: 700px;
+        margin-left: 400px;
+        
+    }
+    
 
     /* yusuf locatiegids */
+
+    .bodyloca{
+        background-color: yellow;
+    }
+
     .alle{
         background-color: aqua;
         border-radius: 10px;
@@ -619,6 +660,10 @@ nav a:hover{
         border-radius: 10px ;
         background-color: aqua;
         text-align: center;
+        width: 700px;
+        margin-left: 400px;
+        margin-top: 15vh;
+        
     }
 
     /* Canvas */
@@ -654,7 +699,7 @@ nav a:hover{
 }
 
 .canvas{
-    border: 2px yellow solid;
+    border: 3px yellow solid;
     border-radius: 10px;
     width: 800px;
     text-align: center;
@@ -662,7 +707,7 @@ nav a:hover{
 }
 
 .parent{
-    border: 2px yellow solid;
+    border: 3px yellow solid;
     border-radius: 10px;
     width: 800px;
     text-align: center;
@@ -695,11 +740,6 @@ nav a:hover{
     border-radius: 10px;
     border: 3px black solid;
 }
-.link:hover{
-    cursor: pointer;
-    background-color: #000000;
-    color: white;
-}
 
 
 .linkcanvas{
@@ -707,14 +747,60 @@ nav a:hover{
     color:blue ;
     font-size: 15px;
 }
-.linkcanvas:hover,
-.linkcanvas:focus{
-    cursor: pointer;
-    background-color: #000000;
-    color: white;
-
-}
 
 .bodycanvas{
-   background-color: #f20000;
+   background-color: yellow;
+}
+
+/* diploma eisen */
+
+.diploma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    background-color: yellow;
+}
+
+.containerdiploma{
+    width: 1000px;
+    height: auto;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+
+.ozellikler{
+    border: 3px rgb(11, 9, 9) solid;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 1000px;
+    height: auto;
+    padding: 0px 10px ;
+}
+
+.h2diploma{
+    font-size: 20px;
+    color: blue;
+}
+
+.pdiploma{
+    font-size: 18px;
+    color: red;
+}
+
+.baslikdip{
+    width: 800px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    margin-top: 15vh;
+    border: 4px black solid;
+    border-radius: 10px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
