@@ -575,17 +575,18 @@ nav a:hover{
     }
 
     .container{
-        margin: 20px;
-        background-color: aqua;
+        margin-left: 150px;
+        background-color: rgb(203, 246, 246);
         border-radius: 10px;
         padding: 10px;
         border: 3px black solid;
-        
+        width: 80%;
     }
 
    .h1intro{
         font-style: italic;
         color: rgb(255, 25, 0);
+        font-size: 25px;
     }
     
     .pintro{
@@ -596,8 +597,8 @@ nav a:hover{
     }
     
     .intro{
-        background-color: aqua;
-        border: 5px rgb(8, 8, 2) solid;
+        background-color: rgb(203, 246, 246);
+        border: 4px rgb(8, 8, 2) solid;
         border-radius: 10px;
         text-align: center;
         margin: 20px;
@@ -608,6 +609,7 @@ nav a:hover{
 
     .renkintro{
         color: red;
+        font-size: 30px;
     }
     
 
@@ -618,10 +620,11 @@ nav a:hover{
     }
 
     .alle{
-        background-color: aqua;
+        background-color: rgb(203, 246, 246);
         border-radius: 10px;
         border: 3px black solid;
-        margin: 30px;
+        margin-left: 150px;
+        width: 80%;
     }
     
     .eerstevraag{
@@ -634,14 +637,12 @@ nav a:hover{
     }
     
     .regels{
-        border: 3px yellow solid;
         margin: 10px;
         border-radius: 10px;
         text-align: center;
     }
     
     .ziekmelden{
-        border: 3px yellow solid;
         margin: 10px;
         border-radius: 10px;
         text-align: center;
@@ -650,10 +651,13 @@ nav a:hover{
     .h2loc{
         color: rgb(255, 34, 0);
         margin-left: 10px;
+        font-size: 23px;
+        
     }
 
     .h1loc{
         color: blue;
+        font-size: 25px;
     }
     
     .ploc, .liloc{
@@ -663,10 +667,10 @@ nav a:hover{
     }
 
     .locatiegids{
-        border: 5px black solid;
+        border: 4px black solid;
         margin: 25px;
         border-radius: 10px ;
-        background-color: aqua;
+        background-color: rgb(203, 246, 246);
         text-align: center;
         width: 700px;
         margin-left: 400px;
@@ -676,6 +680,7 @@ nav a:hover{
 
     .renklocat{
         color: red;
+        font-size: 30px;
     }
 
     /* Canvas */
@@ -687,7 +692,7 @@ nav a:hover{
         margin-left: 150px;
         margin-top: 20px;
         width: 1200px;
-        background-color: aqua;
+        background-color: rgb(203, 246, 246);
         border-radius: 20px;
         border: 3px black solid;
         padding: 10px 10px;
@@ -696,22 +701,23 @@ nav a:hover{
 .butunkonu{
     margin-left: 300px;
     margin-top: 100px;
-    background-color: aqua;
-    border: 5px black solid;
+    background-color: rgb(203, 246, 246);
+    border: 3px black solid;
     border-radius: 20px;
     padding: 5px;
-    width: 900px;
+    width: 80%;
     text-align: center;
 }
 
 
 .kapsayici{
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
 
 .canvas{
-    border: 3px yellow solid;
+    
     border-radius: 10px;
     width: 800px;
     text-align: center;
@@ -719,7 +725,6 @@ nav a:hover{
 }
 
 .parent{
-    border: 3px yellow solid;
     border-radius: 10px;
     width: 800px;
     text-align: center;
@@ -729,43 +734,58 @@ nav a:hover{
 
 .renkbaslik{
     color: rgb(38, 0, 255);
+    font-size: 25px;
 }
 
 
 .h2canva{
     color: rgb(255, 55, 0);
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .pcanva{
     color: rgb(17, 1, 1);
-    font-size: 18px;
+    font-size: 22px;
+}
+
+.resimcanvas{
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 20px;
 }
 
 .link{
-    height: 20px;
-    width: 400px;
-    background-color: aqua;
-    margin-left: 575px;
-    text-align: center;
-    margin-top: 20px;
-    border-radius: 10px;
-    border: 3px black solid;
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 
 .linkcanvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    background-color: #80e1af;
+    border: 2px black solid;
     text-decoration: none;
-    color:blue ;
-    font-size: 15px;
+    font-size: 20px;
+    color: blue;
+    
 }
 
-.bodycanvas{
-   background-color: yellow;
+.linkcanvas:hover{
+    background-color: #218954;
 }
+
+
 
 .renkcanvas{
     color: red;
+    font-size: 30px;
 }
 
 /* diploma eisen */
@@ -775,36 +795,35 @@ nav a:hover{
     align-items: center;
     justify-content: center;
     height: 120vh;
-    background-color: yellow;
 }
 
 .containerdiploma{
-    width: 1000px;
+    width: 100%;
     height: auto;
     padding: 0px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 300px;
     
 }
 
 .ozellikler{
     border: 3px rgb(11, 9, 9) solid;
-    background-color: aqua;
+    background-color: rgb(203, 246, 246);
     border-radius: 10px;
-    width: 1000px;
+    width: 80%;
     height: auto;
     padding: 0px 10px ;
 }
 
 .h2diploma{
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(248, 41, 4);
 }
 
 .pdiploma{
-    font-size: 18px;
+    font-size: 22px;
     color: rgb(12, 1, 1);
 }
 
@@ -815,7 +834,7 @@ nav a:hover{
     margin-top: 15vh;
     border: 4px black solid;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: rgb(203, 246, 246);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -823,4 +842,5 @@ nav a:hover{
 
 .baslikdiploma{
     color: red;
+    font-size: 30px;
 }
