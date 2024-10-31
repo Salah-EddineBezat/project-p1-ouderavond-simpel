@@ -580,7 +580,7 @@ nav a:hover{
         border-radius: 10px;
         padding: 10px;
         border: 3px black solid;
-        width: 80%;
+        width: 70%;
     }
 
    .h1intro{
@@ -611,6 +611,25 @@ nav a:hover{
         color: red;
         font-size: 30px;
     }
+
+    .allcontainer{
+        display: flex;
+    }
+
+    .imgintro, .imgintrodown{
+        width: 350px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .allimg{
+        margin-left: 100px;
+        margin-top: 300px;
+    }
+
+    .imgintrodown{
+        margin-top: 100px;
+    }
     
 
     /* yusuf locatiegids */
@@ -625,6 +644,7 @@ nav a:hover{
         border: 3px black solid;
         margin-left: 150px;
         width: 80%;
+        
     }
     
     .eerstevraag{
@@ -681,6 +701,19 @@ nav a:hover{
     .renklocat{
         color: red;
         font-size: 30px;
+    }
+
+    .examall{
+        display: flex;
+    }
+
+    .locimg2{
+        margin-left: 30px;
+    }
+
+    .lateimg, .ziekimg{
+        margin-top: 200px;
+        margin-left: 50px;
     }
 
     /* Canvas */
@@ -786,6 +819,25 @@ nav a:hover{
 .renkcanvas{
     color: red;
     font-size: 30px;
+}
+
+.allbutun{
+    display: flex;
+}
+
+.canvaimg, .canvaimgd{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.imgcanvaall{
+    margin-left: 70px;
+    margin-top: 300px;
+}
+
+.canvaimgd{
+    margin-top: 200px;
 }
 
 /* diploma eisen */
